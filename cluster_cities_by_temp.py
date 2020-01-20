@@ -121,3 +121,5 @@ plt.savefig('City_Temp_Clusters.png')
 img = Image.open('City_Temp_Clusters.png')
 img.show()
 
+df.to_csv('Cities_with_Clusters.csv')
+
